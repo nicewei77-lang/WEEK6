@@ -86,15 +86,19 @@ data_structures_docker/
 
 ## 5. VSCode에서 해당 프로젝트 폴더 열기
 
-1. VSCode를 실행
-2. `파일 → 폴더 열기`로 방금 클론한 `data_structures_docker` 폴더를 선택
+1. VSCode 또는 **Cursor**를 실행합니다.
+2. `파일 → 폴더 열기`로 아래 중 **하나**를 선택합니다.
+   - **`data_structures_docker` 폴더만** 열기 (이 레포를 단독으로 쓸 때), 또는
+   - 상위 **`WEEK6` 폴더 전체**를 열기 (예: `Data-Structures`와 도커 자료를 한 창에서 볼 때). 이 경우 루트의 `.devcontainer`가 사용됩니다.
+
 ---
 
 ## 6. 개발 컨테이너: 컨테이너에서 열기
 
+**Cursor:** 확장에서 **Dev Containers**(게시자 Anysphere)를 설치한 뒤, 아래와 같이 명령 팔레트를 사용합니다.
 
-1. VSCode에서 `Ctrl+Shift+P` (Windows/Linux) 또는 `Cmd+Shift+P` (macOS)를 누릅니다.
-2. 명령어 팔레트에서 `Dev Containers: Reopen in Container`를 선택합니다.
+1. VS Code / Cursor에서 `Ctrl+Shift+P` (Windows/Linux) 또는 `Cmd+Shift+P` (macOS)를 누릅니다.
+2. 명령어 팔레트에서 **`Dev Containers: Reopen in Container`** (또는 **Rebuild and Reopen in Container**)를 선택합니다.
 3. 이후 컨테이너가 자동으로 실행되고 빌드됩니다. 처음 컨테이너를 열면 빌드하는 시간이 오래걸릴 수 있습니다. 빌드 후, 프로젝트가 **컨테이너 안에서 실행됨**.
 
 ---
